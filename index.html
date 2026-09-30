@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>LUMÉA — Beauty & Wellness Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+<!-- ================= LOADER ================= -->
+
+<div class="loader" id="loader">
+  <div class="loader-logo">LUMÉA</div>
+  <div class="loader-line"></div>
+</div>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="header" id="header">
+
+  <div class="nav-container">
+
+    <a href="#home" class="logo">
+      LUMÉA
+      <span>BEAUTY STUDIO</span>
+    </a>
+
+    <nav class="nav" id="nav">
+
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+
+      <button class="nav-book"
+              onclick="openBooking()">
+        Book Appointment
+      </button>
+
+    </nav>
+
+    <button class="menu-btn"
+            id="menuBtn"
+            aria-label="Menu">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content reveal">
+
+    <p class="eyebrow">
+      BEAUTY • WELLNESS • SELF CARE
+    </p>
+
+    <h1>
+      Your Beauty,
+      <em>Elevated.</em>
+    </h1>
+
+    <p class="hero-text">
+      A modern beauty experience designed around
+      you, your style and your confidence.
+    </p>
+
+    <div class="hero-buttons">
+
+      <button class="btn btn-gold"
+              onclick="openBooking()">
+        Book Your Visit
+      </button>
+
+      <a href="#services"
+         class="btn btn-outline">
+        Explore Services
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-scroll">
+    <span>SCROLL TO EXPLORE</span>
+    <div></div>
+  </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro section">
+
+  <div class="intro-inner reveal">
+
+    <div class="section-label">
+      <span>01</span>
+      THE LUMÉA EXPERIENCE
+    </div>
+
+    <h2>
+      Beauty is not just
+      <span>a service.</span>
+      It's an experience.
+    </h2>
+
+    <p>
+      From the moment you walk in, every detail is designed
+      to make you feel confident, comfortable and completely
+      yourself.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services section"
+         id="services">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+
+      <div class="section-label">
+        <span>02</span>
+        OUR SERVICES
+      </div>
+
+      <h2>
+        Designed for
+        <em>your glow.</em>
+      </h2>
+
+      <p>
+        Discover our carefully curated beauty and
+        wellness experiences.
+      </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+      <!-- CARD 1 -->
+
+      <article class="service-card reveal">
+
+        <div class="service-image">
+          <img
+            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1000&q=85"
+            alt="Hair styling">
+        </div>
+
+        <div class="service-content">
+
+          <span class="service-number">01</span>
+
+          <h3>Hair Studio</h3>
+
+          <p>
+            Cuts, styling, colour and treatments
+            crafted around your personality.
+          </p>
+
+          <a href="#booking"
+             onclick="openBooking()">
+            Explore Service
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- CARD 2 -->
+
+      <article class="service-card reveal">
+
+        <div class="service-image">
+          <img
+            src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
+            alt="Facial skincare">
+        </div>
+
+        <div class="service-content">
+
+          <span class="service-number">02</span>
+
+          <h3>Skin & Facial</h3>
+
+          <p>
+            Refresh, restore and reveal healthier
+            looking skin with personalised care.
+          </p>
+
+          <a href="#booking"
+             onclick="openBooking()">
+            Explore Service
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- CARD 3 -->
+
+      <article class="service-card reveal">
+
+        <div class="service-image">
+          <img
+            src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85"
+            alt="Nail care">
+        </div>
+
+        <div class="service-content">
+
+          <span class="service-number">03</span>
+
+          <h3>Nails & Care</h3>
+
+          <p>
+            From clean classics to statement looks,
+            every detail gets the attention it deserves.
+          </p>
+
+          <a href="#booking"
+             onclick="openBooking()">
+            Explore Service
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- CARD 4 -->
+
+      <article class="service-card reveal">
+
+        <div class="service-image">
+          <img
+            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85"
+            alt="Spa wellness">
+        </div>
+
+        <div class="service-content">
+
+          <span class="service-number">04</span>
+
+          <h3>Spa & Wellness</h3>
+
+          <p>
+            Slow down, breathe and enjoy a peaceful
+            escape from your everyday routine.
+          </p>
+
+          <a href="#booking"
+             onclick="openBooking()">
+            Explore Service
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FEATURE ================= -->
+
+<section class="feature">
+
+  <div class="feature-image">
+
+    <img
+      src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1500&q=90"
+      alt="Beauty studio">
+
+  </div>
+
+  <div class="feature-content reveal">
+
+    <div class="section-label">
+      <span>03</span>
+      WHY LUMÉA
+    </div>
+
+    <h2>
+      Where beauty meets
+      <em>intention.</em>
+    </h2>
+
+    <p>
+      We believe beauty should feel personal.
+      That's why every experience begins with
+      understanding you.
+    </p>
+
+    <div class="feature-list">
+
+      <div>
+        <strong>01</strong>
+        <span>Personalised Consultation</span>
+      </div>
+
+      <div>
+        <strong>02</strong>
+        <span>Premium Beauty Experience</span>
+      </div>
+
+      <div>
+        <strong>03</strong>
+        <span>Detail-focused Specialists</span>
+      </div>
+
+      <div>
+        <strong>04</strong>
+        <span>Relaxed Luxury Environment</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats section">
+
+  <div class="container stats-grid">
+
+    <div class="stat reveal">
+      <strong data-count="2500">0</strong>
+      <span>Beauty Sessions</span>
+    </div>
+
+    <div class="stat reveal">
+      <strong data-count="18">0</strong>
+      <span>Beauty Specialists</span>
+    </div>
+
+    <div class="stat reveal">
+      <strong data-count="96">0</strong>
+      <span>Client Satisfaction</span>
+    </div>
+
+    <div class="stat reveal">
+      <strong data-count="12">0</strong>
+      <span>Signature Services</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section"
+         id="about">
+
+  <div class="container about-grid">
+
+    <div class="about-images reveal">
+
+      <img
+        class="about-main"
+        src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=85"
+        alt="Beauty">
+
+      <img
+        class="about-small"
+        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=85"
+        alt="Style">
+
+      <div class="about-badge">
+        <span>EST.</span>
+        <strong>LUMÉA</strong>
+        <span>BEAUTY STUDIO</span>
+      </div>
+
+    </div>
+
+
+    <div class="about-content reveal">
+
+      <div class="section-label">
+        <span>04</span>
+        ABOUT US
+      </div>
+
+      <h2>
+        A space made
+        for <em>you.</em>
+      </h2>
+
+      <p>
+        LUMÉA is a modern beauty studio concept
+        created for people who want more than
+        an ordinary salon visit.
+      </p>
+
+      <p>
+        Our philosophy combines thoughtful
+        consultation, refined techniques and
+        a calm environment where you can
+        simply be yourself.
+      </p>
+
+      <button class="text-btn"
+              onclick="showMessage()">
+        Discover Our Story
+        <span>↗</span>
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery section"
+         id="gallery">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+
+      <div class="section-label">
+        <span>05</span>
+        THE LOOK
+      </div>
+
+      <h2>
+        Beauty in
+        <em>every detail.</em>
+      </h2>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item large reveal">
+        <img
+          src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1000&q=85"
+          alt="Beauty">
+        <div class="gallery-overlay">
+          <span>BEAUTY</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img
+          src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=800&q=85"
+          alt="Salon">
+        <div class="gallery-overlay">
+          <span>HAIR</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img
+          src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=800&q=85"
+          alt="Beauty">
+        <div class="gallery-overlay">
+          <span>STYLE</span>
+        </div>
+      </div>
+
+      <div class="gallery-item large reveal">
+        <img
+          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=85"
+          alt="Beauty style">
+        <div class="gallery-overlay">
+          <span>GLOW</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="testimonial section"
+         id="reviews">
+
+  <div class="container">
+
+    <div class="section-label">
+      <span>06</span>
+      CLIENT NOTES
+    </div>
+
+    <div class="quote-box reveal">
+
+      <div class="quote-mark">“</div>
+
+      <blockquote id="quote">
+        The experience feels completely different
+        from a regular salon. Everything feels
+        thoughtful, calm and beautifully personal.
+      </blockquote>
+
+      <div class="reviewer">
+
+        <div class="review-avatar">
+          A
+        </div>
+
+        <div>
+          <strong id="reviewName">
+            Aanya
+          </strong>
+
+          <span>
+            LUMÉA CLIENT
+          </span>
+        </div>
+
+      </div>
+
+      <div class="review-controls">
+
+        <button onclick="previousReview()">
+          ←
+        </button>
+
+        <button onclick="nextReview()">
+          →
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq section">
+
+  <div class="container faq-grid">
+
+    <div class="faq-title reveal">
+
+      <div class="section-label">
+        <span>07</span>
+        FAQ
+      </div>
+
+      <h2>
+        Everything you
+        <em>want to know.</em>
+      </h2>
+
+      <p>
+        Have a question before your appointment?
+        Find your answer here.
+      </p>
+
+    </div>
+
+
+    <div class="faq-list">
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Do I need an appointment?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Appointments are recommended so we can
+            reserve the right specialist and time
+            for your selected service.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Can I get a consultation first?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Absolutely. A personalised consultation
+            can help you choose a service that fits
+            your desired look and routine.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Can I book multiple services?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Yes. Multiple services can be combined
+            into one appointment depending on
+            availability.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          How do I reschedule?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Simply contact the studio through the
+            booking channel and we'll help you
+            find another suitable time.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+  <div class="cta-inner reveal">
+
+    <p class="eyebrow">
+      YOUR NEXT LOOK STARTS HERE
+    </p>
+
+    <h2>
+      Ready for your
+      <em>glow?</em>
+    </h2>
+
+    <p>
+      Take a little time for yourself.
+    </p>
+
+    <button class="btn btn-gold"
+            onclick="openBooking()">
+      Book An Appointment
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <a href="#home"
+           class="logo">
+          LUMÉA
+          <span>BEAUTY STUDIO</span>
+        </a>
+
+        <p>
+          Beauty, wellness and confidence —
+          thoughtfully designed around you.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Explore</h4>
+
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Services</h4>
+
+        <a href="#services">Hair Studio</a>
+        <a href="#services">Skin & Facial</a>
+        <a href="#services">Nails & Care</a>
+        <a href="#services">Spa & Wellness</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Connect</h4>
+
+        <a href="#" onclick="showMessage()">Instagram</a>
+        <a href="#" onclick="showMessage()">Pinterest</a>
+        <a href="#" onclick="showMessage()">WhatsApp</a>
+        <a href="#" onclick="showMessage()">Email</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 LUMÉA Beauty Studio — Concept Website
+      </span>
+
+      <span>
+        Crafted with ✦
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- ================= BOOKING MODAL ================= -->
+
+<div class="modal"
+     id="bookingModal">
+
+  <div class="modal-box">
+
+    <button class="modal-close"
+            onclick="closeBooking()">
+      ×
+    </button>
+
+    <p class="eyebrow">
+      LUMÉA BEAUTY STUDIO
+    </p>
+
+    <h2>
+      Book your
+      <em>moment.</em>
+    </h2>
+
+    <form id="bookingForm">
+
+      <div class="input-row">
+
+        <input
+          type="text"
+          placeholder="Your Name"
+          required>
+
+        <input
+          type="tel"
+          placeholder="Phone Number"
+          required>
+
+      </div>
+
+
+      <select required>
+
+        <option value="">
+          Choose Service
+        </option>
+
+        <option>
+          Hair Studio
+        </option>
+
+        <option>
+          Skin & Facial
+        </option>
+
+        <option>
+          Nails & Care
+        </option>
+
+        <option>
+          Spa & Wellness
+        </option>
+
+      </select>
+
+
+      <input
+        type="date"
+        required>
+
+
+      <select required>
+
+        <option value="">
+          Preferred Time
+        </option>
+
+        <option>10:00 AM</option>
+        <option>12:00 PM</option>
+        <option>02:00 PM</option>
+        <option>04:00 PM</option>
+        <option>06:00 PM</option>
+
+      </select>
+
+
+      <button class="btn btn-gold"
+              type="submit">
+        Request Appointment
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast"
+     id="toast">
+  Demo interaction completed ✦
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
